@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from PySide2 import QtCore, QtGui, QtWidgets  # type: ignore
 from warpaint.library.components import responses
 from warpaint.library.components.signals import DisableSignals

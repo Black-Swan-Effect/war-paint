@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from PySide2 import QtWidgets  # type: ignore
 
 

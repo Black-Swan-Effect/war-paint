@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from maya import OpenMayaUI
 from PySide2 import QtCore, QtWidgets  # type: ignore
 from shiboken2 import wrapInstance  # type: ignore

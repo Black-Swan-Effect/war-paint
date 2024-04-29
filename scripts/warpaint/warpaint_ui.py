@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from contextlib import contextmanager
 from PySide2 import QtCore, QtWidgets  # type: ignore
 

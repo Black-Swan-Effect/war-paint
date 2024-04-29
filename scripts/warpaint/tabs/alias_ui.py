@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from PySide2 import QtCore, QtGui, QtWidgets  # type: ignore
 from warpaint.library.components import tiles, toggle, layouts
 from warpaint.model import colours
