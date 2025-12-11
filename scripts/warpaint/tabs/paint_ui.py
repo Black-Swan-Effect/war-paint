@@ -3,8 +3,8 @@
 
 
 from maya import cmds
-from PySide2 import QtGui, QtCore, QtWidgets  # type: ignore
 
+from warpaint.qt import QtWidgets, QtCore, QtGui
 from warpaint.library import api
 from warpaint.library.components import layouts, responses
 from warpaint.partials.regions_ui import Regions

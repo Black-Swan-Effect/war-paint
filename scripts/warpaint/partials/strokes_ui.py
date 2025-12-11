@@ -3,7 +3,7 @@
 
 
 from functools import partial
-from PySide2 import QtCore, QtGui, QtWidgets  # type: ignore
+from warpaint.qt import QtWidgets, QtCore, QtGui
 
 from warpaint.library.components import layouts, buttons, tiles, lineedits, responses
 from warpaint.model import strokes, colours

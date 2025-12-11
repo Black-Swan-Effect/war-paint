@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtWidgets  # type: ignore
+from warpaint.qt import QtWidgets
 
 
 INFORMATION_COLOUR = "#0ea5e9"

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtCore, QtWidgets  # type: ignore
+from warpaint.qt import QtWidgets, QtCore
 
 from warpaint.library.components import tiles, layouts
 from warpaint.library.components.signals import DisableSignals

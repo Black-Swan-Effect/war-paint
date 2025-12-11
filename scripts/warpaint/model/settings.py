@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtCore  # type: ignore
+from warpaint.qt import QtCore
 
 
 ORGANISATION, APPLICATION = "BlackSwanEffect", "WarPaint"

@@ -3,7 +3,7 @@
 
 
 import logging
-from PySide2 import QtWidgets
+from warpaint.qt import QtWidgets
 
 
 log = logging.getLogger(__name__)

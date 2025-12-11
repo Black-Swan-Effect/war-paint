@@ -4,10 +4,10 @@
 
 from maya import cmds
 from pathlib import Path
-from PySide2 import QtCore, QtGui, QtWidgets  # type: ignore
 import json, collections
 from functools import partial
 
+from warpaint.qt import QtWidgets, QtCore, QtGui
 from warpaint.library import api
 from warpaint.library.components import responses
 from warpaint.library.utils import hashing, explorer, clipboard

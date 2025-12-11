@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtCore, QtGui, QtWidgets  # type: ignore
+from warpaint.qt import QtWidgets, QtCore, QtGui
 
 
 def to_group(layout, title=None):

@@ -3,8 +3,8 @@
 
 
 from maya import OpenMayaUI
-from PySide2 import QtCore, QtWidgets  # type: ignore
-from shiboken2 import wrapInstance  # type: ignore
+from warpaint.qt import QtWidgets, QtCore, shiboken
+
 from warpaint import ROOT_DIR
 
 
@@ -15,7 +15,7 @@ def maya_window():
         QtWidgets.QWidget: The main Maya window."""
 
     main_window_ptr = OpenMayaUI.MQtUtil.mainWindow()
-    return wrapInstance(int(main_window_ptr), QtWidgets.QWidget)
+    return shiboken.wrapInstance(int(main_window_ptr), QtWidgets.QWidget)
 
 
 class Singleton(type(QtCore.QObject)):

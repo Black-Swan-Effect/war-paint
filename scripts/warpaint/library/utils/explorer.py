@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtCore, QtGui
+from warpaint.qt import QtCore, QtGui
 import logging
 
 

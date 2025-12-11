@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from PySide2 import QtCore, QtWidgets, QtGui  # type: ignore
+from warpaint.qt import QtWidgets, QtCore, QtGui
 
 
 SIZE = 42

@@ -3,7 +3,7 @@
 
 
 from contextlib import contextmanager
-from PySide2 import QtCore, QtWidgets  # type: ignore
+from warpaint.qt import QtWidgets, QtCore
 
 from warpaint.library.setup import template
 from warpaint.model.settings import Settings
