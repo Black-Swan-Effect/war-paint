@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from warpaint import ROOT_DIR
 from warpaint.library.setup.template import BaseTemplate
 import sys

@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from maya import cmds
 from maya.api import OpenMaya as om2
 import re

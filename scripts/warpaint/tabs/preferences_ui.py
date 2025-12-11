@@ -3,6 +3,7 @@
 
 
 from warpaint.qt import QtWidgets, QtCore, QtGui
+
 from warpaint.library.components import layouts
 from warpaint.partials.shades_ui import ShadesUI
 

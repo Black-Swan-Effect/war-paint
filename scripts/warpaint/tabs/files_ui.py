@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from maya import cmds
 from pathlib import Path
 import json, collections

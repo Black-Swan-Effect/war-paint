@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 class DisableSignals:
     def __init__(self, *objects):
         self.objects = objects

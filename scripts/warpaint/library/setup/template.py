@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 from maya import OpenMayaUI
 from warpaint.qt import QtWidgets, QtCore, shiboken
 

@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from warpaint.qt import QtWidgets, QtCore, QtGui
-
 from warpaint.library.components import responses
 from warpaint.library.components.signals import DisableSignals
 

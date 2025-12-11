@@ -3,7 +3,6 @@
 
 
 from warpaint.qt import QtCore, QtGui
-import logging
 
 
 log = logging.getLogger(__name__)
